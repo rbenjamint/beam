@@ -1,0 +1,29 @@
+@font-face {
+	font-family: 'bananenkoning';
+	src:url('../fonts/bananenkoning/bananenkoning.eot?-wfh250');
+	src:url('../fonts/bananenkoning/bananenkoning.eot?#iefix-wfh250') format('embedded-opentype'),
+		url('../fonts/bananenkoning/bananenkoning.woff?-wfh250') format('woff'),
+		url('../fonts/bananenkoning/bananenkoning.ttf?-wfh250') format('truetype'),
+		url('../fonts/bananenkoning/bananenkoning.svg?-wfh250#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="banaan-"], [class*=" banaan-"] {
+	font-family: 'bananenkoning';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+.banaan-crown:before {			content: "\e600"; }
+.banaan-banana:before {			content: "\e601"; }
+.banaan-banana2:before {		content: "\e602"; }
+.banaan-pineapple:before { 	content: "\e603"; }
+.banaan-pineapple2:before {	content: "\e604"; }

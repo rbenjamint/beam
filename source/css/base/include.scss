@@ -1,0 +1,56 @@
+@mixin backface($value){
+	-webkit-backface-visibility: $value;
+		-moz-backface-visibility: $value;
+		  -o-backface-visibility: $value;
+			  backface-visibility: $value;
+}
+
+@mixin baselink($color: #fff){
+	color: $color;
+	text-decoration: none;
+}
+
+@mixin borderbox(){
+	-webkit-border-box: border-box;
+		-moz-border-box: border-box;
+		 -ms-border-box: border-box;
+		  -o-border-box: border-box;
+			  border-box: border-box;
+}
+
+@mixin radius($value){
+	-webkit-border-radius: $value;
+		-moz-border-radius: $value;
+		  -o-border-radius: $value;
+			  border-radius: $value;
+}
+@mixin transform($value){
+	-webkit-transform: $value;
+		-moz-transform: $value;
+		 -ms-transform: $value;
+		  -o-transform: $value;
+			  transform: $value;
+}
+@mixin transition($value: 0.15s){
+	-webkit-transition: all $value;
+		-moz-transition: all $value;
+		 -ms-transition: all $value;
+		  -o-transition: all $value;
+			  transition: all $value;
+}
+@mixin verticalAlign() {
+	vertical-align: middle;
+	&:before {
+		content: '';
+		height: 100%;
+		display: inline-block;
+		vertical-align: middle;
+	}
+}
+@mixin webkitinator($prefix, $value){
+	-webkit-#{$prefix}: $value;
+		-moz-#{$prefix}: $value;
+		 -ms-#{$prefix}: $value;
+		  -o-#{$prefix}: $value;
+			  #{$prefix}: $value;
+}

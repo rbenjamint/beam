@@ -1,0 +1,69 @@
+{
+	"url": "http://test.beamchallenge.nl",
+	"title": "Bananen en ananas Koning",
+	"facebook": {
+						"link": "https://www.facebook.com/pages/De-Bananen-Ananas-Koning-page/1387410101545733"
+					},
+	"youtube":	{
+						"link": "https://www.youtube.com/channel/UC_-8kgZos0MOPxtFv5uQucA"
+					},
+	"beam_link": "http://www.eo.nl/beam/algemeen/beam-challenge-2014/",
+	"modulesFolder": "modules",
+	"modFolder": "modules",
+	"modules": [
+					"mod-emoji",
+					"mod-jquery"
+				  ],
+	"resources": [{
+						"js": [
+									"https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js",
+									"%s%/momentjs.js",
+									"%s%/base/filters.js",
+									"%s%/controllers/stage.index.js",
+									"%s%/directives/scroll.js"
+								 ],
+						"css": [
+									"%s%/main.css"
+								 ]
+					}],
+	"languages": [
+						"EN",
+						"NL"
+					],
+	"team": [		
+					{
+						"name": "Anne",
+						"title": "17 jaar",
+						"image": "/static/images/team/anne.jpg",
+						"description": "Student Grafisch Vormgeven, Media College Amsterdam"
+					},
+					{
+						"name": "Merijn",
+						"title": "19 jaar",
+						"image": "/static/images/team/merijn.jpg"
+					},
+					{
+						"name": "Sander",
+						"title": "19 jaar",
+						"image": "/static/images/team/sander.jpg",
+						"description": "Student meubelmaker, HMC vakschool Amsterdam"
+					},
+					{
+						"name": "Robbert",
+						"title": "18 jaar",
+						"image": "/static/images/team/robbert.jpg",
+						"description": "Student bedrijfseconomie, Hogeschool van Amsterdam"
+					},
+					{
+						"name": "Robin",
+						"title": "19 jaar",
+						"image": "/static/images/team/robin.jpg",
+						"description": "Student mediadevelopment, Media College Amsterdam"
+					},
+					{
+						"name": "Zita",
+						"title": "17 jaar",
+						"image": "/static/images/team/zita.jpg"
+					}
+				]
+}

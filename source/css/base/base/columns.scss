@@ -1,0 +1,32 @@
+[class*="col"]{
+	position: relative;
+	float: left;
+	
+	&[class*="col2"]{
+		max-height: 100%;
+		overflow: auto;
+	}
+	&[class*="-1"] {	width: 100%; }
+	&[class*="-2"] {	width: 50%; }
+	&[class*="-3"] {	width: 33.333333333333%; }
+	&[class*="-4"] {	width: 25%; }
+	&[class*="-5"] {	width: 20%; }	
+	&[class*="-6"] {	width: 16.666666666667%; }
+	&[class*="-7"] {	width: 14.285714285714%; }
+	&[class*="-8"] {	width: 12.5%; }
+	&[class*="-9"] {	width: 11.111111111111%; }
+	&[class*="-10"] {	width: 10%; }
+	&[class*="-11"] {	width: 9.0909090909091%; }
+	&[class*="-12"] {	width: 8.3333333333333%; }
+	&[class*="-13"] {	width: 90%; margin: 5px 5%; }
+}
+@media screen and (max-width: 400px){
+	[class*="col"]{
+		&[class*="-1"],
+		&[class*="-2"],
+		&[class*="-3"],
+		&[class*="-4"] {
+			width: 100%;
+		}
+	}
+}

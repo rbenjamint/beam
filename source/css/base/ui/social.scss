@@ -1,0 +1,50 @@
+.social-icons {
+	margin-top: 10px;
+	overflow: auto;
+	
+	> * {
+		width: 80px;//90px;
+		height: 80px;//90px;
+		margin-right: 5px;
+		
+		float: left;
+		
+		color: #fff;
+		text-align: center;
+		font-size: 56px;//66px;
+		line-height: 80px;//90px;
+		cursor: pointer;
+		
+		background-color: rgba(255,255,255, 0.2);
+		
+		@include radius(3px);
+		&:last-child {
+			margin-right: 0;
+		}
+		&[class*="ion-"] {
+			line-height: 96px;
+			font-size: 64px;
+		}
+	}
+	> .facebook,
+	> .youtube,
+	> .twitter,
+	> .instagram {
+		&:before {
+			@extend .fontawesome;
+		}
+	}
+	
+	> .facebook:before {
+		content: '\f082';
+	}
+	> .youtube:before {
+		content: '\f167';
+	}
+	> .twitter:before {
+		content: '\f099';
+	}
+	> .instagram:before {
+		content: '\f16d';
+	}
+}

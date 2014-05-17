@@ -1,0 +1,10 @@
+[class*="infinscroll"] {
+	width: 100%;
+	overflow-x: auto;
+	overflow-y: hidden;
+	.inner {
+		float: left;
+		margin-right: -30000px;
+		width: auto;
+	}
+}

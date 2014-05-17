@@ -1,0 +1,42 @@
+[class*="verCent"], .vertCent {
+	top: 50%;
+	@include transform(translateY(-50%));
+	
+	&[class*="-abs"] {
+		position: absolute;
+	}
+}
+.horCent {
+	left: 50%;
+	@include transform(translateX(-50%));
+}
+[class*="pcenter"], .pcenter {
+	position: relative;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	@include transform(translateX(-50%) translateY(-50%));
+	
+	&[class*="-abs"]{
+		position: absolute;
+	}
+}
+.tcenter {
+	text-align: center;
+}
+.large-block {
+	padding: 50px 0;
+}
+.apso {
+	width: 30px;
+	height: 30px;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	line-height: 30px;
+	text-align: center;
+	color: #fafafa;
+	background-color: rgba(0,0,0,.5);
+	
+	@include radius(4px);
+}

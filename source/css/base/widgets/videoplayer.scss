@@ -1,0 +1,23 @@
+.videoplayer {
+	width: 100%;
+	position: relative;
+	margin: 0 auto;
+	margin-bottom: 10px;
+	overflow: hidden;
+	display: block;
+	
+	@include radius(4px);
+	
+	&:after {
+		
+		content: "";
+		display: block; 
+		padding-top: 53.9%;
+	}
+	
+	img,
+	> iframe {
+		width: 100%;
+		height: 100%;
+	}
+}

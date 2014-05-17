@@ -1,0 +1,23 @@
+$h1: h1 41px;
+$h2: h2 34px;
+$h3: h3 28px;
+$h4: h4 20px;
+$h5: h5 16px;
+$h6: h6 14px;
+
+// Here are your color schemes
+$titles: $h1 $h2 $h3 $h4 $h5 $h6;
+
+@each $title in $titles {
+	[class*="#{nth($title, 1)}"] {
+		padding: 5px 0;
+		display: block;
+		line-height: 1.1;
+		font-weight: 300;
+		font-size: #{nth($title, 2)};
+		
+		&[class*="-ib"] {
+			display: inline-block;
+		}
+	}
+}

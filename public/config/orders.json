@@ -1,0 +1,382 @@
+{
+	"done": 		[{
+							"1":[{
+										"image": "/static/images/robin.jpg"
+								}],
+							"2":[{
+										"video": "0ldPL6W8ZLc"
+								}]
+					}],
+	"orders": [
+						{
+							"title": "Opdracht 1",
+							"description": "Maak het BEAM-logo na van groente en fruit.",
+							"points": 37,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 2",
+							"description": "Ga langs bij iemand die ziek is en breng hem/haar een kaart/boeket bloemen- /cadeau- /fruitmand. Maak een foto met daarop de persoon die ziek is en alle ontvangen kaarten- /bloemen- /cadeaus- /fruitmanden.",
+							"points": 55,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 3",
+							"description": "Maak tijdens een kerkdienst een selfie en zorg dat de dominee of voorganger vooraan in de kerk er ook opstaat.",
+							"points": 43,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 4",
+							"description": "Maak een foto waarop een kind (max. 3 jaar oud) voorleest uit een kinderbijbel aan een groep volwassenen (minimaal 3 en ouder dan 30 jaar). De volwassenen dragen een pyjama, hebben een knuffeldier vast en hun duim in de mond.",
+							"points": 67,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 2
+						},
+						{
+							"title": "Opdracht 5",
+							"description": "Verkleed je als boef/gevangene en knuffel een politieagent in uniform.",
+							"points": 82,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 6",
+							"description": "Bouw van pepermuntjes een zo hoog mogelijke toren. Laat op de foto duidelijk zien hoe groot de toren is (door er een meetlint naast te houden bijvoorbeeld).",
+							"points": 40,
+							"type": "image",
+							"video": "",
+							"image": "/static/images/orders/6-1.jpg",
+							"moreimages": [
+												"/static/images/orders/6-3.jpg"
+											],
+							"status": 1
+						},
+						{
+							"title": "Opdracht 7",
+							"description": "Ga met zoveel mogelijk groepsleden in badpak of zwembroek op een badhanddoek in het gras liggen terwijl het regent. Het moet er – ondanks de regen - zo zomers mogelijk uitzien.",
+							"points": 102,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 8",
+							"description": "Trek een hond een voetbalshirt aan en laat hem een doelpunt scoren. (Zonder de hond pijn te doen natuurlijk!).",
+							"points": 88,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 9",
+							"description": "Richt een bushokje in als woonkamer en drink met een buschauffeur een kopje koffie.",
+							"points": 172,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 10",
+							"description": "Ga verkleed als de Wijzen uit het Oosten langs bij een pasgeboren kindje en breng geschenken.",
+							"points": 129,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 11",
+							"description": "Twee mensen hebben een groot waterpistool vol met chocolademelk. De rest van de groep (minimaal 3 anderen) staat op 3,5 meter afstand naast elkaar op een rij en iedereen heeft een flinke dot slagroom op het hoofd. Degenen met het waterpistool moeten in 30 seconden zoveel mogelijk slagroom van de hoofden spuiten.",
+							"points": 109,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 12",
+							"description": "Drie personen  van je groep noemen met elkaar om en om alle 66 bijbelboeken op (persoon 1 begint met Genesis, persoon 2 Exodus, etc.) terwijl drie anderen met een föhn in hun gezicht blazen (hoogste stand).",
+							"points": 66,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 13",
+							"description": "Maak met je groep (hand in hand) een zomerduik (hetzelfde als de nieuwjaarsduik) in winterkleding (dus mutsen, sjaals, handschoenen, etc).",
+							"points": 105,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 14",
+							"description": "Ga verkleed als superhelden (met een groot touw) touwtjespringen op een drukke plek (plein/straat) en laat zoveel mogelijk andere mensen (voorbijgangers) tegelijk meespringen. Laat iedereen tijdens het springen coole superhelden-moves maken!",
+							"points": 136,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 15",
+							"description": "Verwelkom op een zondag de bezoekers van de kerk op een zo feestelijk mogelijk manier. Je moet in ieder geval een spandoek maken met een welkomstekst.",
+							"points": 86,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 16",
+							"description": "Vaar verkleed als Noach in een bootje met zoveel mogelijk knuffeldieren erin, een rondje over een sloot, plas, rivier, meer of zee. Laat het eruit zien alsof het regent (of terwijl het echt regent) en laat Noach zingen: ‘Het regent, het regent, de pannetjes worden nat.’",
+							"points": 143,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 17",
+							"description": "Ga naar een plek waar veel hardlopers zijn. Maak een finishlint en doe alsof een hardloper een belangrijke wedstrijd heeft gewonnen. Deel in ieder geval een medaille uit.",
+							"points": 64,
+							"type": "video",
+							"video": "3sABCcpD8mA",
+							"image": "",
+							"moreimages": [
+												"/static/images/orders/17.jpg"
+											],
+							"status": 1
+						},
+						{
+							"title": "Opdracht 18",
+							"description": "Verzamel lege flessen, bind ze onder je voeten en loop over het water. Hoe meer overwaterlopers, hoe meer vreugd!",
+							"points": 127,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 2
+						},
+						{
+							"title": "Opdracht 19",
+							"description": "Dans samen met een groep bejaarden op het nummer Wobble van Family Force 5 en zorg dat iedereen er zo ‘swag’ mogelijk uit ziet.",
+							"points": 156,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 20",
+							"description": "Ga zo chic mogelijk gekleed uiteten in een fastfoodrestaurant en heb met elkaar een maaltijd aan een gedekte tafel bij kaarslicht.",
+							"points": 172,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 21",
+							"description": "Beeld het verhaal van Adam en Eva met de vrucht en de slang uit.",
+							"points": 89,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 22",
+							"description": "Ga naar het hoogste punt van je dorp/stad en maak een groepsfoto met uitzicht.",
+							"points": 62,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 23",
+							"description": "Maak een robotpak (kartonnen dozen, aluminiumfolie, etc) en ga als robot al fierljeppend een sloot over. Hoe meer robots, hoe meer vreugd!",
+							"points": 193,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 24",
+							"description": "Tover plastic tassen om tot een high fashion-outfit. Eén van de groepsleden doet een fotoshoot in die outfit.",
+							"points": 87,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 25",
+							"description": "Deel Nibbits/dropveter-kettingen (een ketting van dropveter met Nibbits-chips eraan geregen) uit aan fietsers die voor een stoplicht staan te wachter en wens ze een feestelijke dag.",
+							"points": 84,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 26",
+							"description": "Koop iets lekkers (koek/snoep/watermeloen/etc.) in de supermarkt en geef het aan degene die achter je staat in de rij. Zorg dat je de reactie van degene aan wie je de traktatie geeft, goed in beeld hebt.",
+							"points": 59,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 2
+						},
+						{
+							"title": "Opdracht 27",
+							"description": "Breng zelfgebakken koekjes langs bij de BEAM-redactie en maak een foto bij het BEAM Challenge-bord (Adres: Oude Amersfoortseweg 79 in Hilversum).",
+							"points": 134,
+							"type": "image",
+							"video": "",
+							"image": "/static/images/orders/27-3.jpeg",
+							"moreimages": [
+												"/static/images/orders/27-2.jpeg",
+												"/static/images/orders/27-4.jpeg"
+											],
+							"status": 1
+						},
+						{
+							"title": "Opdracht 28",
+							"description": "Eén teamlid probeert een ander teamlid een bord spaghetti Bolognese te voeren, terwijl ze allebei aan het springen zijn op een trampoline. Binnen 45 seconden zoveel mogelijk spaghetti.",
+							"points": 146,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 29",
+							"description": "Scheer bij iemand het woord One of het cijfer 1 in het het haar (hoeft niet per se iemand uit je groep te zijn, mag wel!).",
+							"points": 86,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 30",
+							"description": "Op een plek waar veel mensen zijn (bijv: een winkelstraat) begin je vanuit het niets met zoveel mogelijk mensen Who’s The King Of The Jungle te zingen (met bijhorende bewegingen/danspasjes). Als het lied klaar is, loopt iedereen door alsof er niets gebeurd is.",
+							"points": 102,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 31",
+							"description": "Doe iets leuks met een groep bejaarde mensen in een bejaardentehuis en bezorg ze een fantastische middag (Bijv. Bingo spelen, karaoke, bezoekje aan het park, etc).",
+							"points": 174,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 32",
+							"description": "Maak een YOLO-Lekker-Gek-Met-Je-Haar-Foto waarop iedereen zijn haar zo raar mogelijk heeft zitten, met als thema De Zomer Op Je Bol. Het gebruik van attributen moedigen wij ten zeerste aan.",
+							"points": 51,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 33",
+							"description": "Doe een ‘random act of kindness’, ofwel: doe iets aardigs voor een ander. Hoeft niet per se bij een onbekende, het mag iedereen zijn. Voor degene voor wie je iets doet moet het in ieder geval onverwachts zijn. Hoe groter de verrassing, hoe meer punten je verdient.",
+							"points": 100,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 34",
+							"description": "Dertien kinderen (jonger dan 6) dragen een feestmuts en een nep-snor en houden een bord met een letter erop vast. De 13 borden met letters vormen samen de woorden BEAM Challenge.",
+							"points": 74,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 35",
+							"description": "Zorg dat je met een van de opdrachten de krant haalt.",
+							"points": 190,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 36",
+							"description": "*EOJD-opdracht* Ga (met zoveel mogelijk van je groepsleden) op de foto met een van de artiesten van de EO-Jongerendag. Oh ja, de artiest mag op de foto niet de grond raken. Dat wordt dus tillen (of iets anders).",
+							"points": 210,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 37",
+							"description": "*EOJD-opdracht* Neem een vuilniszak (of meerdere) mee en help de medewerkers van de McDonalds (tegenover het Gelredome) met het opruimen van de troep die andere Jongerendagbezoekers daar achterlaat. Ga op de foto met een McDonalds-medewerker en je vuilniszak(ken) vol troep.",
+							"points": 134,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 38",
+							"description": "*EOJD-opdracht* Leer het nummer Build Your Kingdom Here van Rend Collective uit het hoofd en zing het nummer zo hard mogelijk mee tijdens het optreden van de band tijdens de EOJD.",
+							"points": 69,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 39",
+							"description": "*EOJD-opdracht* Alle groepen verzamelen om 17:00 bij de hoofdingang van het stadion. Joram staat jullie daar op te wachten. Als hij het startsein geeft, doen we met alle groepen samen een group hug.",
+							"points": 75,
+							"type": "video",
+							"video": "",
+							"image": "",
+							"status": 0
+						},
+						{
+							"title": "Opdracht 40",
+							"description": "*EOJD-opdracht* Maak een spandoek met daarop de naam van je team. Maak in het stadion een foto van je team met je spandoek met op de achtergrond het podium.",
+							"points": 95,
+							"type": "image",
+							"video": "",
+							"image": "",
+							"status": 0
+						}
+					]
+}

@@ -1,0 +1,12 @@
+[class*="par"] {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	word-wrap: break-word;
+	font-weight: 400;
+	font-size: 14px;
+	
+	&[class*="par2"]{
+		padding: 5px;
+	}
+}

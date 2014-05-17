@@ -1,0 +1,167 @@
+.smallprogram {
+	margin: 10px;
+	overflow: auto;
+	border: 1px solid #ccc;
+	@include radius(4px);
+	
+	.span {
+		padding: 10px;
+		color: #ccc;
+		border-bottom: 1px solid #2D2D2D;
+	}
+	.timer-bar {
+		width: 50%;
+		height: 5px;
+		background-color: #27ae60;
+		@include transition();
+	}
+}
+.programhead {
+	height: auto;
+	overflow: hidden;
+	margin-top: 10px;
+	
+	background-color: #fff;
+	color: #303030;
+	
+	@include radius(4px 4px 0 0);
+	
+	> .hour {
+		width: 200px;
+		padding: 10px 0;
+		float: left;
+		position: relative;
+		overflow: hidden;
+		
+		@include borderbox();
+		
+		&:first-child {
+			margin-left: -20px;
+			padding-left: 22px;
+		}
+		&.last {
+			width: 43px;
+			margin-left: -23px;
+		}
+	}
+}
+.programfoot {
+	position: relative;
+	
+	.live {
+		position: absolute;
+		left: 50%;
+		margin: 0;
+		margin-top: 13px;
+		margin-left: -7px;
+		
+		@include radius(0);
+		
+		&:before {
+			left: 50%;
+			border: solid transparent;
+			content: " ";
+			height: 0;
+			width: 0;
+			position: absolute;
+			pointer-events: none;
+			border-color: rgba(194, 225, 245, 0);
+			border-bottom-color: #FFFFFF;
+			border-width: 14px;
+			margin-left: -7px;
+		}
+	}
+}
+[class*="program-"] {
+	width: 100px;
+	height: 42px;
+	margin: 0;
+	padding: 10px 5px;
+	float: left;
+	
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	text-align: center;
+	color: #fff;
+	
+	border: 1px;
+	border-top-width: 0px;
+	border-left-width: 0px;
+	border-style: solid;
+	border-color: #fff;
+	cursor: pointer;
+	
+	@extend .borderbox;
+	@include transition(.2s);
+	
+	&:first-child {
+		border-left-width: 1px;
+		@include radius(0 0 0 4px);
+	}
+	&:last-child {
+		@include radius(0 0 4px 0);
+	}
+	
+	/*&:hover {
+		background-color: #fff;
+		color: #303030;
+		@include transition(.2s);
+	}*/
+	
+	&.current, &.current:hover {
+		background-color: rgba(255,255,255, 0.2);
+		color: #fff;
+		cursor: pointer;
+	}
+	
+	&[class*="-15"]{	width: 50px; }
+	&[class*="-30"]{	width: 100px; }
+	&[class*="-45"]{	width: 150px; }
+	
+	&[class*="-60"]{	width: 200px; }
+	&[class*="-75"]{	width: 250px; }
+	&[class*="-90"]{	width: 300px; }
+	&[class*="-105"]{	width: 350px; }
+	&[class*="-120"]{	width: 400px; }
+	&[class*="-135"]{	width: 450px; }
+	&[class*="-150"]{	width: 500px; }
+	&[class*="-165"]{	width: 550px; }
+	&[class*="-180"]{	width: 600px; }
+	&[class*="-195"]{	width: 650px; }
+	&[class*="-210"]{	width: 700px; }
+	&[class*="-225"]{	width: 750px; }
+	&[class*="-240"]{	width: 800px; }
+	
+/*	
+	&[class*="-02"] { // 1/2 uur
+		width: 41px
+	}
+	&[class*="-014"] { // 1/4 uur
+		width: 9.5px
+	}
+	&[class*="-034"] { // 3/4 uur
+		width: 70.5px
+	}
+	&[class*="-04"] { // 1/4 uur
+		width: 41px
+	}
+	&[class*="-1"] { // 1 uur
+		width: 100px
+	}
+	&[class*="-12"] { // 1 1/2 uur
+		width: 163px
+	}
+	&[class*="-14"] { // 1 1/4 uur
+		width: 163px
+	}
+	&[class*="-2"] { // 2 uur
+		width: 224px
+	}
+	&[class*="-3"] { // 3 uur
+		width: 224px
+	}
+	/*&[class*="-2"] {
+		width: 300px
+	}*/
+}

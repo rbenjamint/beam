@@ -1,0 +1,40 @@
+.user {
+	width: 100%;
+	position: relative;
+	margin: 10px 0;
+	overflow: auto;
+	color: #ccc;
+	
+	> .avatar {
+		width: 50px;
+		float: left;
+		margin: 0 10px;
+		position: relative;
+		background-color: #fff;
+		overflow: hidden;
+		border: 1px solid #fff;
+		
+		@include radius(100px);
+		@include ratio(100%);
+		> .inner {
+			overflow: hidden;
+			@include absolute();
+		}
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+	.name, .groupname {
+		@extend .ellipsis;
+	}
+	.name {
+		font-size: 18px;
+		color: #ccc;
+		@include absolute(2px, 0, auto, 70px);
+	}
+	.groupname {
+		font-size: 15px;
+		@include absolute(24px, 0, auto, 70px)
+	}
+}

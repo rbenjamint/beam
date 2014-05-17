@@ -1,0 +1,25 @@
+.timer {
+	margin: 0;
+	padding: 10px 10px 20px;
+	text-align: center;
+	color: #cccccc;//#686868;
+	
+	text-transform: capitalize;
+		
+	.date {
+		font-size: 26px;
+	}
+	.time {
+		font-size: 17px;
+	}
+	
+}
+.timer2 {
+	margin: 0;
+	padding: 0 0 10px;
+	font-size: 14px;
+	color: #ccc;
+	text-align: center;
+	text-transform: capitalize;
+	border-bottom: 1px solid #2D2D2D;
+}

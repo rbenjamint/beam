@@ -1,0 +1,146 @@
+.sideMenu {
+	width: 80%;
+	max-width: 250px;
+	height: 100%;
+	position: absolute;
+	z-index: 10;
+	
+	overflow: auto;
+	
+	background-color: #373737;//#F2F2EA;
+	@include transition(.2s);
+	
+	-webkit-box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+	
+	&.resp {
+		&.left, &.right {
+			width: 0;
+		}
+		&.right, &.bottom, &.top {
+			height: 0;
+		}
+	}
+	&.left, &.right, &.bottom {
+		bottom: 0;
+	}
+	&.left, &.right, &.top {
+		top: 0;
+	}
+	&.left, &.bottom, &.top {
+		left: 0;
+	}
+	&.right, &.bottom, &.top {
+		right: 0;
+	}
+	
+	.scroll {
+		position: absolute;
+		top: 100px;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		overflow: auto;
+		
+		ul, li {
+			list-style: none;
+		}
+		> ul {
+			padding: 0;
+			
+			> li {
+				width: 100%;
+				border-style: solid;
+				border-width: 0;
+				border-bottom-width: 1px;
+				border-color: #2D2D2D;//#DFDFD7;
+			}
+			
+			> li a {
+				width: 100%;
+				height: 51px;//61px;
+				position: relative;
+				cursor: pointer;
+				display: block;
+				
+				line-height: 50px;//60px;
+				font-size: 14px;//19px;
+				
+				color: #ffffff;//#686868;
+				background-color: rgba(0,0,0,0);
+				
+				@include transition(.3s);
+				
+				&:first-child {
+					border-top-width: 1px;
+				}
+				
+				&:hover {
+					color: #f7f7f7;//#333333;
+					background-color: #1E1E1E;
+					@include transition(.3s);
+					
+					> a {
+						color: #f7f7f7;//#333333;
+					}
+				}
+				
+				> a {
+					color: #fff;//#686868;
+				}
+				
+				.blockie {
+					width: 45px;
+					position: absolute;
+					left: 0;
+					top: 0;
+					bottom: 0;
+					line-height: 50px;//60px;
+					text-align: center;
+					font-size: 26px;//24px;//32px;
+				}
+				.icon-text {
+					position: absolute;
+					left: 50px;
+					top: 0;
+					right: 0;
+					bottom: 0;
+					padding-left: 0px;
+					white-space: nowrap;
+					text-overflow: ellipsis;
+					overflow: hidden;
+				}
+				+ ul {
+					max-height: 500px;
+					@include transition(.25s);
+					li {
+						border-style: solid;
+						border-width: 0;
+						border-top-width: 1px;
+						border-color: #2D2D2D;//#DFDFD7;
+					}
+				}
+			}
+		}
+	}
+	
+}
+@media screen and (max-width: 767px){
+	.sideMenu {
+		width: 0;
+		
+		ul li {
+			height: 51px;
+			line-height: 50px;
+			
+			*, .blockie {
+				line-height: 50px;
+			}
+		}
+		
+		&.open {
+			width: 80%;
+			@include transition(.2s);
+		}
+	}
+}

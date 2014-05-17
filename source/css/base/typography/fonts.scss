@@ -1,0 +1,39 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100italic,100,300,300italic,500,400italic,500italic,700,700italic);
+@mixin roboto() {
+	font-family: 'Roboto', sans-serif;
+}
+.roboto {
+	font-family: 'Roboto', sans-serif;
+}
+@import url(http://fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic);
+@mixin lato() {
+	font-family: 'Lato', sans-serif;
+}
+.lato {
+	font-family: 'Lato', sans-serif;
+}
+@font-face {
+  font-family: 'FontAwesome';
+  src: url('../fonts/fontawesome/fontawesome-webfont.eot?v=4.0.3');
+  src: url('../fonts/fontawesome/fontawesome-webfont.eot?#iefix&v=4.0.3') format('embedded-opentype'),
+  		 url('../fonts/fontawesome/fontawesome-webfont.woff?v=4.0.3') format('woff'),
+  		 url('../fonts/fontawesome/fontawesome-webfont.ttf?v=4.0.3') format('truetype'), 
+  		 url('../fonts/fontawesome/fontawesome-webfont.svg?v=4.0.3#fontawesomeregular') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+@import 'fontawesome';
+@font-face {
+	font-family: "Ionicons";
+	src: url("../fonts/ionicons/ionicons.eot?v=1.4.1");
+	src: url("../fonts/ionicons/ionicons.eot?v=1.4.1#iefix") format("embedded-opentype"),
+		  url("../fonts/ionicons/ionicons.ttf?v=1.4.1") format("truetype"),
+		  url("../fonts/ionicons/ionicons.woff?v=1.4.1") format("woff"), 
+		  url("../fonts/ionicons/ionicons.svg?v=1.4.1#Ionicons") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@import 'ionicons';
+
+@import 'bananenkoning';
