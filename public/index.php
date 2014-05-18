@@ -47,7 +47,7 @@
 					<div class="fa-child"></div>
 				</div>
 				<div class="title">
-					{{lang.title}}<div class="banaan-pineapple2"></div>
+					{{lang.title}}
 				</div>
 				<div class="subtitle">
 					{{lang.subtitle}}
