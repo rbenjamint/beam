@@ -11,15 +11,14 @@
 	"modulesFolder": "modules",
 	"modFolder": "modules",
 	"modules": [
-					"mod-emoji",
-					"mod-jquery"
+					"mod-country"
 				  ],
 	"resources": [{
 						"js": [
 									"https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js",
 									"%s%/momentjs.js",
 									"%s%/base/filters.js",
-									"%s%/controllers/stage.index.js",
+									"%s%/controllers/banaan.index.js",
 									"%s%/directives/scroll.js"
 								 ],
 						"css": [
@@ -27,8 +26,8 @@
 								 ]
 					}],
 	"languages": [
-						"EN",
-						"NL"
+						"NL",
+						"EN"
 					],
 	"team": [		
 					{

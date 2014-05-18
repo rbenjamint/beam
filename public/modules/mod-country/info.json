@@ -1,0 +1,9 @@
+{
+	"name": 			"mod-country",
+	"version": 		"v1.0",
+	"resources": [{
+						"css": [
+									"static/css/country.css"
+								]
+					 }]
+}

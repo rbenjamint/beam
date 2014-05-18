@@ -1,4 +1,4 @@
-angular.module('stage', [])
+angular.module('banaan', [])
 	.directive('scroll', function ($window, $rootScope) {
 		return function(scope, element, attrs, $rootScope) {
 			if(!localStorage.getItem("landing")){

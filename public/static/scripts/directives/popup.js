@@ -1,4 +1,4 @@
-angular.module('dnji', [])
+angular.module('banaan', [])
 	.directive('popup', function () {
 		return {
 			restrict: 'E',

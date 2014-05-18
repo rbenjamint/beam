@@ -1,0 +1,259 @@
+[class*="count"] {
+	width: 35px;
+	height: 23px;
+	display: inline-block;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 100%;
+	
+	&[class*="-2x"],
+	&[class*="-large"] {
+		width: 70px;
+		height: 47px;
+	}
+	// http://www.worldatlas.com/aatlas/ctycodes.htm
+	// to check which you need	
+	&.AF, &.AFG	{ background-image: url(../images/Afghanistan.png); }
+	&.AL, &.ALB	{ background-image: url(../images/Albania.png); }
+	&.DZ, &.DZA	{ background-image: url(../images/Algeria.png); }
+	&.AS, &.ASM	{ background-image: url(../images/American-Samoa.png); }
+	&.AD, &.AND	{ background-image: url(../images/Andorra.png); }
+	&.AO, &.AGO	{ background-image: url(../images/Angola.png); }
+	&.AI, &.AIA	{ background-image: url(../images/Anguilla.png); }
+	&.AQ, &.ATA	{ background-image: url(../images/Antarctica.png); }
+	&.AG, &.ATG	{ background-image: url(../images/Antigua-And-Barbuda.png); }
+	&.AR, &.ARG	{ background-image: url(../images/Argentina.png); }
+	&.AM, &.ARM	{ background-image: url(../images/Armenia.png); }
+	&.AW, &.ABW	{ background-image: url(../images/Aruba.png); }
+	&.AU, &.AUS	{ background-image: url(../images/Australia.png); }
+	&.AT, &.AUT	{ background-image: url(../images/Austria.png); }
+	&.AZ, &.AZE	{ background-image: url(../images/Azerbaijan.png); }
+	&.BS, &.BHS	{ background-image: url(../images/Bahamas.png); }
+	&.BH, &.BHR	{ background-image: url(../images/Bahrain.png); }
+	&.BD, &.BGD	{ background-image: url(../images/Bangladesh.png); }
+	&.BB, &.BRB	{ background-image: url(../images/Barbados.png); }
+	&.BY, &.BLR	{ background-image: url(../images/Belarus.png); }
+	&.BE, &.BEL	{ background-image: url(../images/Belgium.png); }
+	&.BZ, &.BLZ	{ background-image: url(../images/Belize.png); }
+	&.BJ, &.BEN	{ background-image: url(../images/Benin.png); }
+	&.BM, &.BMU	{ background-image: url(../images/Bermuda.png); }
+	&.BT, &.BTN	{ background-image: url(../images/Bhutan.png); }
+	&.BO, &.BOL	{ background-image: url(../images/Bolivia.png); }
+	&.BA, &.BIH	{ background-image: url(../images/Bosnia-And-Herzegowina.png); }
+	&.BW, &.BWA	{ background-image: url(../images/Botswana.png); }
+	&.BV, &.BVT	{ background-image: url(../images/Bouvet-Island.png); }
+	&.BR, &.BRA	{ background-image: url(../images/Brazil.png); }
+	&.IO, &.IOT	{ background-image: url(../images/British-Indian-Ocean-Territory.png); }
+	&.BN, &.BRN	{ background-image: url(../images/Brunei-Darussalam.png); }
+	&.BG, &.BGR	{ background-image: url(../images/Bulgaria.png); }
+	&.BF, &.BFA	{ background-image: url(../images/Burkina-Faso.png); }
+	&.BI, &.BDI	{ background-image: url(../images/Burundi.png); }
+	&.KH, &.KHM	{ background-image: url(../images/Cambodia.png); }
+	&.CM, &.CMR	{ background-image: url(../images/Cameroon.png); }
+	&.CA, &.CAN	{ background-image: url(../images/Canada.png); }
+	&.CV, &.CPV	{ background-image: url(../images/Cape-Verde.png); }
+	&.KY, &.CYM	{ background-image: url(../images/Cayman-Islands.png); }
+	&.CF, &.CAF	{ background-image: url(../images/Central-African-Republic.png); }
+	&.TD, &.TCD	{ background-image: url(../images/Chad.png); }
+	&.CL, &.CHL	{ background-image: url(../images/Chile.png); }
+	&.CN, &.CHN	{ background-image: url(../images/China.png); }
+	&.CX, &.CXR	{ background-image: url(../images/Christmas-Island.png); }
+//&.CC, &.CCK	{ background-image: url(../images/Cocos-Keeling-Islands.png); }
+	&.CO, &.COL	{ background-image: url(../images/Colombia.png); }
+	&.KM, &.COM	{ background-image: url(../images/Comoros.png); }
+	&.CG, &.COG	{ background-image: url(../images/Congo-Replubic.png); }
+	&.CD, &.COD	{ background-image: url(../images/Congo-Democratic.png); }
+	&.CK, &.COK	{ background-image: url(../images/Cook-Islands.png); }
+	&.CR, &.CRI	{ background-image: url(../images/Costa-Rica.png); }
+	&.CI, &.CIV	{ background-image: url(../images/Cote-Divoire.png); }
+	&.HR, &.HRV	{ background-image: url(../images/Croatia.png); }
+	&.CU, &.CUB	{ background-image: url(../images/Cuba.png); }
+	&.CY, &.CYP	{ background-image: url(../images/Cyprus.png); }
+	&.CZ, &.CZE	{ background-image: url(../images/Czech-Republic.png); }
+	&.DK, &.DNK	{ background-image: url(../images/Denmark.png); }
+	&.DJ, &.DJI	{ background-image: url(../images/Djibouti.png); }
+	&.DM, &.DMA	{ background-image: url(../images/Dominica.png); }
+	&.DO, &.DOM	{ background-image: url(../images/Dominican-Republic.png); }
+	&.TP, &.TMP	{ background-image: url(../images/East-Timor.png); }
+	&.EC, &.ECU	{ background-image: url(../images/Ecuador.png); }
+	&.EG, &.EGY	{ background-image: url(../images/Egypt.png); }
+	&.SV, &.SLV	{ background-image: url(../images/El-Salvador.png); }
+	&.GQ, &.GNQ	{ background-image: url(../images/Equatorial-Guinea.png); }
+	&.ER, &.ERI	{ background-image: url(../images/Eritrea.png); }
+	&.EE, &.EST	{ background-image: url(../images/Estonia.png); }
+	&.ET, &.ETH { background-image: url(../images/Ethiopia.png); }
+//&.FK, &.FLK	{ background-image: url(../images/Falkland-Islands-(Malvinas).png); }
+//&.FO, &.FRO	{ background-image: url(../images/Faroe-Islands.png); }
+	&.FJ, &.FJI	{ background-image: url(../images/Fiji.png); }
+	&.FI, &.FIN	{ background-image: url(../images/Finland.png); }
+	&.FR, &.FRA	{ background-image: url(../images/France.png); }
+//&.FX, &.FXX	{ background-image: url(../images/France,-Metropolitan.png); }
+//&.GF, &.GUF	{ background-image: url(../images/French-Guiana.png); }
+//&.PF, &.PYF	{ background-image: url(../images/French-Polynesia.png); }
+//&.TF, &.ATF	{ background-image: url(../images/French-Southern-Territories.png); }
+	&.GA, &.GAB	{ background-image: url(../images/Gabon.png); }
+	&.GM, &.GMB	{ background-image: url(../images/Gambia.png); }
+	&.GE, &.GEO	{ background-image: url(../images/Georgia.png); }
+	&.DE, &.DEU	{ background-image: url(../images/Germany.png); }
+	&.GH, &.GHA	{ background-image: url(../images/Ghana.png); }
+//&.GI, &.GIB	{ background-image: url(../images/Gibraltar.png); }
+	&.GR, &.GRC	{ background-image: url(../images/Greece.png); }
+//&.GL, &.GRL	{ background-image: url(../images/Greenland.png); }
+	&.GD, &.GRD	{ background-image: url(../images/Grenada.png); }
+//&.GP, &.GLP	{ background-image: url(../images/Guadeloupe.png); }
+//&.GU, &.GUM	{ background-image: url(../images/Guam.png); }
+	&.GT, &.GTM	{ background-image: url(../images/Guatemala.png); }
+	&.GN, &.GIN	{ background-image: url(../images/Guinea.png); }
+	&.GW, &.GNB	{ background-image: url(../images/Guinea-Bissau.png); }
+	&.GY, &.GUY	{ background-image: url(../images/Guyana.png); }
+	&.HT, &.HTI	{ background-image: url(../images/Haiti.png); }
+//&.HM, &.HMD	{ background-image: url(../images/Heard-And-Mc-Donald-Islands.png); }
+//&.VA, &.VAT	{ background-image: url(../images/Holy-See-Vatican-City-State.png); }
+	&.HN, &.HND	{ background-image: url(../images/Honduras.png); }
+	&.HK, &.HKG	{ background-image: url(../images/Hong-Kong.png); }
+	&.HU, &.HUN	{ background-image: url(../images/Hungary.png); }
+	&.IS, &.ISL	{ background-image: url(../images/Iceland.png); }
+	&.IN, &.IND	{ background-image: url(../images/India.png); }
+	&.ID, &.IDN	{ background-image: url(../images/Indonesia.png); }
+	&.IR, &.IRN	{ background-image: url(../images/Iran.png); }
+	&.IQ, &.IRQ	{ background-image: url(../images/Iraq.png); }
+	&.IE, &.IRL	{ background-image: url(../images/Ireland.png); }
+	&.IL, &.ISR	{ background-image: url(../images/Israel.png); }
+	&.IT, &.ITA	{ background-image: url(../images/Italy.png); }
+	&.JM, &.JAM	{ background-image: url(../images/Jamaica.png); }
+	&.JP, &.JPN	{ background-image: url(../images/Japan.png); }
+	&.JO, &.JOR	{ background-image: url(../images/Jordan.png); }
+	&.KZ, &.KAZ	{ background-image: url(../images/Kazakhstan.png); }
+	&.KE, &.KEN	{ background-image: url(../images/Kenya.png); }
+	&.KI, &.KIR	{ background-image: url(../images/Kiribati.png); }
+	&.KP, &.PRK	{ background-image: url(../images/Korea-North.png); }
+	&.KR, &.KOR	{ background-image: url(../images/Korea-South.png); }
+	&.KOSOVO		{ background-image: url(../images/Kosovo.png); } //custom added to list
+	&.KW, &.KWT	{ background-image: url(../images/Kuwait.png); }
+	&.KG, &.KGZ	{ background-image: url(../images/Kyrgyzstan.png); }
+	&.LA, &.LAO	{ background-image: url(../images/Laos .png); }
+	&.LV, &.LVA	{ background-image: url(../images/Latvia.png); }
+	&.LB, &.LBN	{ background-image: url(../images/Lebanon.png); }
+	&.LS, &.LSO	{ background-image: url(../images/Lesotho.png); }
+	&.LR, &.LBR	{ background-image: url(../images/Liberia.png); }
+	&.LY, &.LBY	{ background-image: url(../images/Libya.png); }
+	&.LI, &.LIE	{ background-image: url(../images/Liechtenstein.png); }
+	&.LT, &.LTU	{ background-image: url(../images/Lithuania.png); }
+	&.LU, &.LUX	{ background-image: url(../images/Luxembourg.png); }
+//&.MO, &.MAC	{ background-image: url(../images/Macau.png); }
+	&.MK, &.MKD	{ background-image: url(../images/Macedonia.png); }
+	&.MG, &.MDG	{ background-image: url(../images/Madagascar.png); }
+	&.MW, &.MWI	{ background-image: url(../images/Malawi.png); }
+	&.MY, &.MYS	{ background-image: url(../images/Malaysia.png); }
+	&.MV, &.MDV	{ background-image: url(../images/Maldives.png); }
+	&.ML, &.MLI	{ background-image: url(../images/Mali.png); }
+	&.MT, &.MLT	{ background-image: url(../images/Malta.png); }
+	&.MH, &.MHL	{ background-image: url(../images/Marshall-Islands.png); }
+	&.MQ, &.MTQ	{ background-image: url(../images/Martinique.png); }
+	&.MR, &.MRT	{ background-image: url(../images/Mauritania.png); }
+	&.MU, &.MUS	{ background-image: url(../images/Mauritius.png); }
+//&.YT, &.MYT	{ background-image: url(../images/Mayotte.png); }
+	&.MX, &.MEX	{ background-image: url(../images/Mexico.png); }
+	&.FM, &.FSM	{ background-image: url(../images/Micronesia-Federated.png); }
+	&.MD, &.MDA	{ background-image: url(../images/Moldova.png); }
+	&.MC, &.MCO	{ background-image: url(../images/Monaco.png); }
+	&.MN, &.MNG	{ background-image: url(../images/Mongolia.png); }
+	&.ME, &.MNE	{ background-image: url(../images/Montenegro.png); }
+	&.MS, &.MSR	{ background-image: url(../images/Montserrat.png); }
+	&.MA, &.MAR	{ background-image: url(../images/Morocco.png); }
+	&.MZ, &.MOZ	{ background-image: url(../images/Mozambique.png); }
+	&.MM, &.MMR	{ background-image: url(../images/Myanmar.png); }
+	&.NA, &.NAM	{ background-image: url(../images/Namibia.png); }
+	&.NR, &.NRU	{ background-image: url(../images/Nauru.png); }
+	&.NP, &.NPL	{ background-image: url(../images/Nepal.png); }
+	&.NL, &.NLD	{ background-image: url(../images/Netherlands.png); }
+	&.AN, &.ANT	{ background-image: url(../images/Netherlands-Antilles.png); }
+	&.NC, &.NCL	{ background-image: url(../images/New-Caledonia.png); }
+	&.NZ, &.NZL	{ background-image: url(../images/New-Zealand.png); }
+	&.NI, &.NIC	{ background-image: url(../images/Nicaragua.png); }
+	&.NE, &.NER	{ background-image: url(../images/Niger.png); }
+	&.NG, &.NGA	{ background-image: url(../images/Nigeria.png); }
+	&.NU, &.NIU	{ background-image: url(../images/Niue.png); }
+	&.NF, &.NFK	{ background-image: url(../images/Norfolk-Island.png); }
+	&.MP, &.MNP	{ background-image: url(../images/Northern-Mariana-Islands.png); }
+	&.NO, &.NOR	{ background-image: url(../images/Norway.png); }
+	&.OM, &.OMN	{ background-image: url(../images/Oman.png); }
+	&.PK, &.PAK	{ background-image: url(../images/Pakistan.png); }
+	&.PW, &.PLW	{ background-image: url(../images/Palau.png); }
+	&.PA, &.PAN	{ background-image: url(../images/Panama.png); }
+	&.PG, &.png	{ background-image: url(../images/Papua-New-Guinea.png); }
+	&.PY, &.PRY	{ background-image: url(../images/Paraguay.png); }
+	&.PE, &.PER	{ background-image: url(../images/Peru.png); }
+	&.PH, &.PHL	{ background-image: url(../images/Philippines.png); }
+	&.PN, &.PCN	{ background-image: url(../images/Pitcairn.png); }
+	&.PL, &.POL	{ background-image: url(../images/Poland.png); }
+	&.PT, &.PRT	{ background-image: url(../images/Portugal.png); }
+	&.PR, &.PRI	{ background-image: url(../images/Puerto-Rico.png); }
+	&.QA, &.QAT	{ background-image: url(../images/Qatar.png); }
+	&.RE, &.REU	{ background-image: url(../images/Reunion.png); }
+	&.RO, &.ROM	{ background-image: url(../images/Romania.png); }
+	&.RU, &.RUS	{ background-image: url(../images/Russian-Federation.png); }
+	&.RW, &.RWA	{ background-image: url(../images/Rwanda.png); }
+	&.KN, &.KNA	{ background-image: url(../images/Saint-Kitts-And-Nevis.png); }
+	&.LC, &.LCA	{ background-image: url(../images/Saint-Lucia.png); }
+	&.VC, &.VCT	{ background-image: url(../images/Saint-Vincent-And-The-Grenadines.png); }
+	&.WS, &.WSM	{ background-image: url(../images/Samoa.png); }
+	&.SM, &.SMR	{ background-image: url(../images/San-Marino.png); }
+	&.ST, &.STP	{ background-image: url(../images/Sao-Tome-And-Principe.png); }
+	&.SA, &.SAU	{ background-image: url(../images/Saudi-Arabia.png); }
+	&.SN, &.SEN	{ background-image: url(../images/Senegal.png); }
+	&.RS, &.SRB	{ background-image: url(../images/Serbia.png); }
+	&.SC, &.SYC	{ background-image: url(../images/Seychelles.png); }
+	&.SL, &.SLE	{ background-image: url(../images/Sierra-Leone.png); }
+	&.SG, &.SGP	{ background-image: url(../images/Singapore.png); }
+	&.SK, &.SVK	{ background-image: url(../images/Slovakia.png); }
+	&.SI, &.SVN	{ background-image: url(../images/Slovenia.png); }
+	&.SB, &.SLB	{ background-image: url(../images/Solomon-Islands.png); }
+	&.SO, &.SOM	{ background-image: url(../images/Somalia.png); }
+	&.ZA, &.ZAF	{ background-image: url(../images/South-Africa.png); }
+	&.SS, &.SSD	{ background-image: url(../images/South-Sudan.png); }
+//&.GS, &.SGS	{ background-image: url(../images/South-Georgia-And-South-S.S..png); }
+	&.ES, &.ESP	{ background-image: url(../images/Spain.png); }
+	&.LK, &.LKA	{ background-image: url(../images/Sri-Lanka.png); }
+//&.SH, &.SHN	{ background-image: url(../images/St.-Helena.png); }
+//&.PM, &.SPM	{ background-image: url(../images/St.-Pierre-And-Miquelon.png); }
+	&.SD, &.SDN	{ background-image: url(../images/Sudan.png); }
+	&.SR, &.SUR	{ background-image: url(../images/Suriname.png); }
+//&.SJ, &.SJM	{ background-image: url(../images/Svalbard-And-Jan-Mayen-Islands.png); }
+	&.SZ, &.SWZ	{ background-image: url(../images/Swaziland.png); }
+	&.SE, &.SWE	{ background-image: url(../images/Sweden.png); }
+	&.CH, &.CHE	{ background-image: url(../images/Switzerland.png); }
+	&.SY, &.SYR	{ background-image: url(../images/Syria.png); }
+	&.TW, &.TWN	{ background-image: url(../images/Taiwan.png); }
+	&.TJ, &.TJK	{ background-image: url(../images/Tajikistan.png); }
+	&.TZ, &.TZA	{ background-image: url(../images/Tanzania.png); }
+	&.TH, &.THA	{ background-image: url(../images/Thailand.png); }
+	&.TG, &.TGO	{ background-image: url(../images/Togo.png); }
+	&.TK, &.TKL	{ background-image: url(../images/Tokelau.png); }
+	&.TO, &.TON	{ background-image: url(../images/Tonga.png); }
+	&.TT, &.TTO	{ background-image: url(../images/Trinidad-And-Tobago.png); }
+	&.TN, &.TUN	{ background-image: url(../images/Tunisia.png); }
+	&.TR, &.TUR	{ background-image: url(../images/Turkey.png); }
+	&.TM, &.TKM	{ background-image: url(../images/Turkmenistan.png); }
+	&.TC, &.TCA	{ background-image: url(../images/Turks-And-Caicos-Islands.png); }
+	&.TV, &.TUV	{ background-image: url(../images/Tuvalu.png); }
+	&.UG, &.UGA	{ background-image: url(../images/Uganda.png); }
+	&.UA, &.UKR	{ background-image: url(../images/Ukraine.png); }
+	&.AE, &.ARE	{ background-image: url(../images/United-Arab-Emirates.png); }
+	&.GB, &.GBR	{ background-image: url(../images/United-Kingdom.png); }
+	&.US, &.USA	{ background-image: url(../images/United-States-Of-America.png); }
+//&.UM, &.UMI	{ background-image: url(../images/U.S.-Minor-Islands.png); }
+	&.UY, &.URY	{ background-image: url(../images/Uruguay.png); }
+	&.UZ, &.UZB	{ background-image: url(../images/Uzbekistan.png); }
+	&.VU, &.VUT	{ background-image: url(../images/Vanuatu.png); }
+	&.VE, &.VEN	{ background-image: url(../images/Venezuela.png); }
+	&.VN, &.VNM	{ background-image: url(../images/Viet-Nam.png); }
+//&.VG, &.VGB	{ background-image: url(../images/Virgin-Islands-(British).png); }
+//&.VI, &.VIR	{ background-image: url(../images/Virgin-Islands-(U.S.).png); }
+//&.WF, &.WLF	{ background-image: url(../images/Wallis-And-Futuna-Islands.png); }
+//&.EH, &.ESH	{ background-image: url(../images/Western-Sahara.png); }
+	&.YE, &.YEM	{ background-image: url(../images/Yemen.png); }
+	&.ZM, &.ZMB	{ background-image: url(../images/Zambia.png); }
+	&.ZW, &.ZWE	{ background-image: url(../images/Zimbabwe.png); }
+	
+}

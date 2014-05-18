@@ -1,5 +1,5 @@
 <!doctype html>
-<html ng-app="stage">
+<html ng-app="banaan">
 	<head>
 		<title><?=(isset($settings["title"]))? $settings["title"]: 'Robin Timman'?></title>
 		<meta charset="utf-8">

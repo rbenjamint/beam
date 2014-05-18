@@ -37,6 +37,7 @@
 				<a href="{{set.facebook.link}}" target="_new">
 					<div class="fa-facebook"></div>
 				</a>
+				<div class="count NL"></div>
 			</div>
 			<div class="pcenter">
 				<div class="koning">
@@ -46,7 +47,7 @@
 					<div class="fa-child"></div>
 				</div>
 				<div class="title">
-					{{lang.title}}
+					{{lang.title}}<div class="banaan-pineapple2"></div>
 				</div>
 				<div class="subtitle">
 					{{lang.subtitle}}
