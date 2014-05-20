@@ -41,8 +41,11 @@
 							"points": 67,
 							"type": "image",
 							"video": "",
-							"image": "",
-							"status": 2
+							"image": "/static/images/orders/4.jpg",
+							"moreimages": [
+												"/static/images/orders/4-2.jpg"
+											  ],
+							"status": 1
 						},
 						{
 							"title": "Opdracht 5",
@@ -62,7 +65,7 @@
 							"image": "/static/images/orders/6-1.jpg",
 							"moreimages": [
 												"/static/images/orders/6-3.jpg"
-											],
+											  ],
 							"status": 1
 						},
 						{
@@ -172,9 +175,9 @@
 							"description": "Verzamel lege flessen, bind ze onder je voeten en loop over het water. Hoe meer overwaterlopers, hoe meer vreugd!",
 							"points": 127,
 							"type": "video",
-							"video": "",
+							"video": "ILnngYLIpTk",
 							"image": "",
-							"status": 2
+							"status": 1
 						},
 						{
 							"title": "Opdracht 19",

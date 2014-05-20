@@ -5,7 +5,7 @@
 						"link": "https://www.facebook.com/pages/De-Bananen-Ananas-Koning-page/1387410101545733"
 					},
 	"youtube":	{
-						"link": "https://www.youtube.com/channel/UC_-8kgZos0MOPxtFv5uQucA"
+						"link": "https://www.youtube.com/channel/UC5v08MF6yZ3ie8GbZmUZSNg"
 					},
 	"beam_link": "http://www.eo.nl/beam/algemeen/beam-challenge-2014/",
 	"modulesFolder": "modules",
@@ -39,7 +39,8 @@
 					{
 						"name": "Merijn",
 						"title": "19 jaar",
-						"image": "/static/images/team/merijn.jpg"
+						"image": "/static/images/team/merijn.jpg",
+						"description": "Student Onderwijsassistent, Kaderlyceum Amsterdam"
 					},
 					{
 						"name": "Sander",
@@ -62,7 +63,8 @@
 					{
 						"name": "Zita",
 						"title": "17 jaar",
-						"image": "/static/images/team/zita.jpg"
+						"image": "/static/images/team/zita.jpg",
+						"description": "Sociaal Agogisch Werker, Horizon College Alkmaar"
 					}
 				]
 }

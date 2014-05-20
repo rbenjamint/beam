@@ -37,7 +37,6 @@
 				<a href="{{set.facebook.link}}" target="_new">
 					<div class="fa-facebook"></div>
 				</a>
-				<div class="count NL"></div>
 			</div>
 			<div class="pcenter">
 				<div class="koning">
